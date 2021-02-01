@@ -1,0 +1,32 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+.unique-color-dark{
+  background-color: #383838!important;
+}
+
+.text-danger{
+  color: #D35266;
+}
+
+.btn-danger{
+  background-color: #D35266;
+}
+
+header {
+  height: 50vh;
+  background: rgb(211,82,102), url(../assets/images/cover.jpg);
+  background: linear-gradient(180deg, rgba(211,82,102,1) 0%, rgba(255,255,255,0) 83%), url(../assets/images/cover.jpg);
+  background-size: cover;
+}
+
+.btn-outline-secondary.active, .btn-outline-secondary:active, .btn-outline-secondary:active:focus, .btn-outline-secondary:focus, .btn-outline-secondary:hover {
+  background-color: transparent;
+  color: #D35266;
+  border-color: #D35266;
+}
+
+.btn-outline-secondary {
+  border: 2px solid #D35266; 
+   color: #D35266!important; 
+  background-color: transparent;
+}
