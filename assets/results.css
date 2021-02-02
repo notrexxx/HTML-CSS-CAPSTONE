@@ -167,3 +167,47 @@ body {
   #sidebar-wrapper .list-group {
     width: 15rem;
   }
+
+  .list-noborder{
+
+    border: none;
+  }
+
+  .no-border-rigth{
+
+    border-bottom: none !important;
+    border-right: none !important;
+  }
+
+  .btn-float{
+
+    float: right;
+  }
+
+  .text-float
+{
+    float: left;
+}
+
+.drop-btn {
+    color:  #888888;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .drop-btn:focus {
+    color: #d35266;
+    background: #383838;
+  }
+
+  .media .dropdown-toggle::after { 
+    content: none; 
+} 
+
+.pagination.pg-blue .active .page-link {
+    background-color: #d35266 !important;
+}
