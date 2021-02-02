@@ -69,3 +69,20 @@ header {
 .footer-wrap a {
   font-size: 13px;
 }
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+.carousel-item 
+  .col, .col-sm, .col-md {
+     margin: 8px;
+     height: 300px;
+     background-size: cover;
+     background-position: center center;
+  
+}
+  img {
+     
+  }
+
