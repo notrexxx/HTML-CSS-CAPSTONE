@@ -31,44 +31,32 @@ header {
   background-color: transparent;
 }
 
-.foot-a {
-  text-decoration: none !important;
-  color: #6c757d !important;
+footer {
+  font-family: "Helvetica-Neue-Medium", sans-serif;
+  font-size: 14px;
+  padding: 1em 0;
+  background: #fff;
+  color: #888; 
 }
-
-.footer-links {
-  font-size: 0.85rem;
-  line-height: 14px;
-  padding-right: 1rem !important;
-}
-
-.footer-section {
-  border-top: 1px solid #666;
-}
-
-.logo-footer {
-  color: #fff;
-  fill: #f72210;
-  width: 236px;
-}
-
-.footer-copyright {
-  font-size: 0.8rem;
-  line-height: 12px;
-  text-transform: uppercase;
-  color: #666;
-}
-
-.footer-social,
-.footer-social a {
-  font-size: 26px !important;
-  color: grey;
-  text-decoration: none !important;
-}
-
-.footer-wrap a {
-  font-size: 13px;
-}
+ 
+  footer .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-top: solid 1px #888;
+    padding: 1.2em 4vw; 
+    text-decoration: none;
+  }
+   
+   
+    @media screen and (min-width: 768px) {
+      footer .top {
+        flex-direction: row; } }
+   
+       
+   
 
 .carousel-nav-icon {
   height: 48px;
@@ -82,7 +70,81 @@ header {
      background-position: center center;
   
 }
-  img {
-     
-  }
+.btn {
+   word-wrap: normal; 
+}
 
+
+/* Generic styling */
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
