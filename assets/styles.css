@@ -209,3 +209,27 @@ header {
   flex: 0 0 20% !important;
   max-width: 20%;
 }
+
+.drop-btn {
+  color: #888;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  margin-top: 15px !important;
+}
+
+.drop-btn:focus {
+  color: #d35266;
+  background: #383838;
+}
+
+ .card-body .dropdown-toggle::after {
+  content: none;
+}
+
+.btn-float {
+  float: left;
+}
