@@ -15,12 +15,15 @@ Skills Revived & Learned:
 - HTML5, CSS3, Bootstrap, JavaScript.
 - Position, Flex, Grid, Floats, RWD
 
+## Screenshots
+
 - Main View
 ![screenshot](assets/images/index.png)
 
 
 - Results view
 ![screenshot](assets/images/results.png)
+
 ## Built With
 
 - Major languages: HTML5, CSS, JavaScript
