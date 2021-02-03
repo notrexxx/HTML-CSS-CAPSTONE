@@ -226,7 +226,7 @@ header {
   background: #383838;
 }
 
- .card-body .dropdown-toggle::after {
+.card-body .dropdown-toggle::after {
   content: none;
 }
 
