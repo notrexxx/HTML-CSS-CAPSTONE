@@ -12,10 +12,7 @@ Skills Revived & Learned:
 - Versioning & best coding practices, Github Flow.
 - HTML5, CSS3 elements, semantics, features etc.
 - Linter - install & fix errors
-
-> Learning Goals:
-
-- HTML5, CSS3, Bootstrap.
+- HTML5, CSS3, Bootstrap, JavaScript.
 - Position, Flex, Grid, Floats, RWD
 
 - Main View
