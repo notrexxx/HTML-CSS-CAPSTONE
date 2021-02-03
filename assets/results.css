@@ -1,4 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+@import url(./fonts.css);
 
 .unique-color-dark {
   background-color: #383838 !important;
@@ -206,3 +207,24 @@ body {
     flex-wrap: wrap;
   }
 }
+
+
+h4, h5, h6 {
+  font-family: 'Helvetica-medium', sans-serif;
+}
+
+h1{
+
+  font-family: 'Helvetica-Bold', sans-serif;
+}
+
+.font-weight-bold{
+
+  font-family: 'Helvetica-Bold', sans-serif !important;
+}
+
+.light{
+
+  font-family: 'Helvetica-light', sans-serif !important;
+}
+
