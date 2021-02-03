@@ -1,6 +1,24 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 @import url(./fonts.css);
 
+h4,
+h5,
+h6 {
+  font-family: 'Helvetica-medium', sans-serif;
+}
+
+h1 {
+  font-family: 'Helvetica-Bold', sans-serif;
+}
+
+.font-weight-bold {
+  font-family: 'Helvetica-Bold', sans-serif !important;
+}
+
+.light {
+  font-family: 'Helvetica-light', sans-serif !important;
+}
+
 .unique-color-dark {
   background-color: #383838 !important;
 }
@@ -54,92 +72,135 @@ header {
   word-wrap: normal;
 }
 
-
-/* Generic styling */
-
-footer ul {
-  list-style: none;
-  padding-left: 0;
+.bot-col {
+  border-bottom-color: #d35266 !important;
 }
 
-footer {
-  background-color: #555;
-  color: #bbb;
-  line-height: 1.5;
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
 }
 
-footer a {
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.social-icons a {
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.site-footer a:hover {
   text-decoration: none;
-  color: #eee;
 }
 
-a:hover {
-  text-decoration: underline;
+.footer-links {
+  padding-left: 0;
+  list-style: none;
 }
 
-.ft-title {
+.footer-links li {
+  display: block;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
   color: #fff;
-  font-family: "Merriweather", serif;
-  font-size: 1.375rem;
-  padding-bottom: 0.625rem;
+  background-color: #29aafe;
 }
 
-/* Sticks footer to bottom */
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
 }
 
-.container {
-  flex: 1;
-}
-
-/* Footer main */
-.ft-main {
-  padding: 1.25rem 1.875rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media only screen and (min-width: 29.8125rem /* 477px */) {
-  .ft-main {
-    justify-content: space-evenly;
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
   }
-}
-
-@media only screen and (min-width: 77.5rem /* 1240px */) {
-  .ft-main {
-    justify-content: space-evenly;
-  }
-}
-
-.ft-main-item {
-  padding: 1.25rem;
-  min-width: 12.5rem;
-}
-
-/* Footer social */
-.ft-social {
-  padding: 0 1.875rem 1.25rem;
-}
-
-.ft-social-list {
-  display: flex;
-  justify-content: center;
-  border-top: 1px #777 solid;
-  padding-top: 1.25rem;
-}
-
-.ft-social-list li {
-  margin: 0.5rem;
-  font-size: 1.25rem;
-}
-
-/* Footer legal */
-.ft-legal {
-  padding: 0.9375rem 1.875rem;
-  background-color: #333;
 }
 
 #sidebar-wrapper {
@@ -207,24 +268,3 @@ body {
     flex-wrap: wrap;
   }
 }
-
-
-h4, h5, h6 {
-  font-family: 'Helvetica-medium', sans-serif;
-}
-
-h1{
-
-  font-family: 'Helvetica-Bold', sans-serif;
-}
-
-.font-weight-bold{
-
-  font-family: 'Helvetica-Bold', sans-serif !important;
-}
-
-.light{
-
-  font-family: 'Helvetica-light', sans-serif !important;
-}
-
