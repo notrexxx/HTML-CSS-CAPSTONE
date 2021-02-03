@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Newsweek - Clone
+# Project Name: Gaming Gear E-Shop
 
-## Week 3 Collaborative Project
+## HTML/CSS Capstone project
 
 Beaufitul responsive Gaming Gear E-Shop built with the design idea of [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
@@ -26,7 +26,7 @@ Skills Revived & Learned:
 ![screenshot](assets/images/results.png)
 ## Built With
 
-- Major languages: HTML5, CSS
+- Major languages: HTML5, CSS, JavaScript
 - Frameworks: Bootstrap, MDBootstrap
 
 
