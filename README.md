@@ -4,7 +4,7 @@
 
 ## HTML/CSS Capstone project
 
-Beaufitul responsive Gaming Gear E-Shop built with the design idea of [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+Beaufitul responsive Gaming Gear E-Shop built with the design idea of [Mohammed Awad](https://www.behance.net/M_Awad)
 
 
 Skills Revived & Learned:
