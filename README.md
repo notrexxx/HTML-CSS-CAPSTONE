@@ -34,6 +34,31 @@ Skills Revived & Learned:
 
 [Live Demo Link](https://notrexxx.github.io/HTML-CSS-CAPSTONE/)
 
+
+## Getting Started
+
+- Run this command in your OS terminal: `git clone https://github.com/notrexxx/HTML-CSS-CAPSTONE.git` to get a copy of the project.
+- To run the project open the `index.html` file in a web browser.
+
+
+### Prerequisites
+
+* Internet connection
+* A browser that supports HTML5
+
+### Setup
+
+* Clone the repository
+
+### Usage
+
+* Open index.html in your browser
+
+### Deployment
+
+To deploy on to github pages first push the project to a repository, then
+in the project settings there is a section called github pages that will let you choose the branch that you want to deploy, after the branch is selected the project will be live on your-github-username.github.io/your-github-repo-name
+
 ## Author
 
 👤 **Andres Leon**
