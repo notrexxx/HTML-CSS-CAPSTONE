@@ -12,11 +12,11 @@ h1 {
 }
 
 .font-weight-bold {
-  font-family: 'Helvetica-Bold', sans-serif ;
+  font-family: 'Helvetica-Bold', sans-serif;
 }
 
 .light {
-  font-family: 'Helvetica-light', sans-serif ;
+  font-family: 'Helvetica-light', sans-serif;
 }
 
 .unique-color-dark {
@@ -205,7 +205,7 @@ header {
 .w-20 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;
-  flex: 0 0 20% ;
+  flex: 0 0 20%;
   max-width: 20%;
 }
 
@@ -242,5 +242,4 @@ header {
     -webkit-box-flex: 0;
     -webkit-tap-highlight-color: #0000;
   }
-  
 }
