@@ -13,11 +13,11 @@ h1 {
 }
 
 .font-weight-bold {
-  font-family: 'Helvetica-Bold', sans-serif !important;
+  font-family: 'Helvetica-Bold', sans-serif;
 }
 
 .light {
-  font-family: 'Helvetica-light', sans-serif !important;
+  font-family: 'Helvetica-light', sans-serif;
 }
 
 .unique-color-dark {
