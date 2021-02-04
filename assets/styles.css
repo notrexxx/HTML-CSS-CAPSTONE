@@ -191,7 +191,6 @@ header {
 }
 
 .carousel-item .col,
-.col-sm,
 .col-md {
   margin: 8px;
   height: 300px;
@@ -232,4 +231,16 @@ header {
 
 .btn-float {
   float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .cell {
+    text-align: center;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-tap-highlight-color: #0000;
+  }
+  
 }
